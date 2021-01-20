@@ -11,6 +11,6 @@ class TemperatureTest extends TestCase
     public function it_can_convert_celsius_to_fahrenheit()
     {
         $temperature = new Temperature(5);
-        $this->assertSame(41, $temperature->toFahrenheit());
+        $this->assertSame(41.0, $temperature->toFahrenheit());
     }
 }
