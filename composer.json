@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "shwaolin/laravel-webinar-packages",
+    "description": "laravel-webinar-packages",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "shwaolin",
+        "laravel-webinar-packages"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/shwaolin/laravel-webinar-packages",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Dorian Bartsch",
+            "email": "dorian@shwao.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Shwaolin\\LaravelWebinarPackages\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Shwaolin\\LaravelWebinarPackages\\Tests\\": "tests"
         }
     },
     "scripts": {
